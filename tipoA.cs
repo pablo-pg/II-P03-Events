@@ -44,6 +44,7 @@ public class tipoA : MonoBehaviour {
         GetComponent<Renderer>().material = material;
 
         // Jump
-        //asfsdfsdfsfsf
+        Vector3 jump = new Vector3(0, 0.1f, 0);
+        transform.position = transform.position + jump;
     }
 }
